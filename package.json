@@ -1,0 +1,29 @@
+{
+  "name": "unsplash-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "1.7.0",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "import": "^0.0.6",
+    "jest": "^26.0.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "twit": "2.2.11",
+    "unsplash-js": "^6.0.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*",
+      "txt.json"
+    ]
+  },
+  "engines": {
+    "node": "14.2.0",
+    "npm": "6.14.4"
+  }
+}
